@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% block title %} | Home {% endblock  %}
+
 {% block content %}
 {% load humanize %}
 {% load static %}
@@ -108,7 +110,7 @@
         <!-- Main title -->
         <div class="main-title">
             <h1>Featured <span>Cars</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Designed for living. Engineered to last.</p>
         </div>
         <!-- Slick slider area start -->
         <div class="slick-slider-area clearfix">
@@ -198,7 +200,7 @@
         <!-- Main title -->
         <div class="main-title">
             <h1>Latest <span>Cars</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Excellence through Passion. Find Your Own Road.</p>
         </div>
         <div class="row">
             {% for car in all_cars %}
@@ -288,7 +290,7 @@
         <!-- Main title -->
         <div class="main-title">
             <h1>Executive <span>Team</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            <p>We have the power to make a difference</p>
         </div>
         <!-- Slick slider area start -->
         <div class="slick-slider-area clearfix">
@@ -307,7 +309,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <h4><a href="team-detail.html">{{team.first_name}} {{team.last_name}}</a></h4>
+                            <h4>{{team.first_name}} {{team.last_name}}</h4>
                             <h5>{{team.designation}}</h5>
                         </div>
                     </div>
