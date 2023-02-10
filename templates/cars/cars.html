@@ -100,11 +100,11 @@
                             <ul class="pagination">
                                 {% if cars.has_previous %}
                                 <li class="page-item">
-                                    <a class="page-link" href="?page={{cars.previous_page_number}}"><i class="fa fa-angle-left"></i></a>
+                                    <a class="page-link" href="?page={{cars.previous_page_number}}"><i class="fa fa-angle-left" style="margin-top:15px;"></i></a>
                                 </li>
                                  {% else %}
                                     <li class="page-item disabled">
-                                        <a class="page-link" ><i class="fa fa-angle-left"></i></a>
+                                        <a class="page-link" ><i class="fa fa-angle-left " style="margin-top:15px;"></i></a>
                                     </li>
                                 {% endif %}
 
@@ -118,11 +118,11 @@
                                 {% endfor %}
                                 {% if cars.has_next %}
                                     <li class="page-item">
-                                        <a class="page-link" href="?page={{cars.next_page_number}}"><i class="fa fa-angle-right"></i></a>
+                                        <a class="page-link" href="?page={{cars.next_page_number}}"><i class="fa fa-angle-right" style="margin-top:15px;"></i></a>
                                     </li>
                                 {% else %}
                                     <li class="page-item disabled">
-                                        <a class="page-link" ><i class="fa fa-angle-right"></i></a>
+                                        <a class="page-link" ><i class="fa fa-angle-right" style="margin-top:15px;"></i></a>
                                     </li>
                                 {% endif %}
                             </ul>
@@ -189,11 +189,11 @@
                         <h5 class="sidebar-title">Follow us</h5>
                         <div class="social-list clearfix">
                             <ul>
-                                <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
-                                <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://facebook.com" target='_blank' class="facebook-bg"><i class="fa fa-facebook" style="margin-top:10px;"></i></a></li>
+                                <li><a href="https://twitter.com" target='_blank' class="twitter-bg"><i class="fa fa-twitter" style="margin-top:10px;"></i></a></li>
+                                <li><a href="https://google.com" target='_blank' class="google-bg"><i class="fa fa-google-plus" style="margin-top:10px;"></i></a></li>
+                                <li><a href="https://rss.com" target='_blank' class="rss-bg"><i class="fa fa-rss" style="margin-top:10px;"></i></a></li>
+                                <li><a href="https://linkedin.com" target='_blank' class="linkedin-bg"><i class="fa fa-linkedin" style="margin-top:10px;"></i></a></li>
                             </ul>
                         </div>
                     </div>
