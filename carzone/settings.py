@@ -27,7 +27,7 @@ SECRET_KEY = '6qxgzodqk#k6(u!_t89o5n63^30$hg%4%3x(e))rulx97e1hkd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -163,3 +163,4 @@ EMAIL_PORT= 587
 EMAIL_HOST_USER='ssivapriya1014@gmail.com'
 EMAIL_HOST_PASSWORD='fzuitgnhnscgqikn'
 EMAIL_USE_TLS= True
+
